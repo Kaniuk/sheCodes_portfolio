@@ -30,19 +30,63 @@ p {
 
 .main h1 {
     font-size: 96px;
+    line-height: 1.5;
 }
 
-.h3 {
+h2 {
+    font-size: 64px;
+    line-height: 85px
+}
+
+h3 {
     font-size: 24px;
     font-family: var(--paragraph-fontfamily);
     font-weight: normal;
 }
 
-.btn {
+.btn-branding {
     background: var(--branding-color);
     color: var(--bacground-color);
+    border-radius: 4px;
     padding: 10px 20px;
     line-height: 27px;
     margin-top: 30px;
 
+}
+
+.content > p {
+    font-size: 18px;
+    line-height: 27px;
+    margin: 120px 0 92px 0;
+}
+
+.btn-branding-project {
+    color: var(--branding-color);
+    border: 1px solid var(--branding-color);
+    border-radius: 4px;
+    padding: 10px 20px;
+    line-height: 27px;
+    margin-top: 30px;
+}
+
+.content-block {
+    margin: 110px 40px;
+}
+
+@media (max-width: 900px) {
+    h2 {
+        font-size: 44px;
+    }
+    .main h1 {
+        font-size: 44px;
+        line-height: 1.5;
+    }
+    .main {
+        padding: 40px 20px;
+    }
+
+    .content-block {
+        padding: 0;
+        text-align: center;
+    }
 }
