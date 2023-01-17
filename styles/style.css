@@ -27,7 +27,7 @@ p {
 .main {
     background: var(--bacground-color);
     text-align: center;
-    padding: 160px 20px;
+    padding: 100px 20px;
 }
 
 .index-nav {
@@ -59,7 +59,7 @@ p {
 }
 
 .section {
-    padding: 140px 20px;
+    padding: 80px 20px;
 }
 
 .content-container img {
@@ -148,7 +148,7 @@ h3 {
 }
 
 .footer-section-first h4 {
-    font-size: 64px;;
+    font-size: 58px;;
 }
 
 .footer-section-first a {
